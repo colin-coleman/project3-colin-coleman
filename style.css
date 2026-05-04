@@ -41,7 +41,40 @@ h3 {
   margin-bottom: var(--space-xs);
 }
 
+a {
+  color: #33272a;
+  text-decoration: none;
+}
 
+header {
+  background: #c3f0ca;
+  position: sticky;
+}
+nav{
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  width: auto;
+  background-color: #ffc6c7;
+  padding: 0 20rem;
+  font-family: ;
+  font-size: 1rem;
+  z-index: 1000;
+}
+
+nav a {
+  font-family: ;
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  background: #ff8ba7;
+}
 
 
 
