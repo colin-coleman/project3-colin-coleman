@@ -111,6 +111,25 @@ nav a.active {
     line-height: 3;
 }
 
+.headabout {
+    text-align: center;
+}
+
+.aboutimg {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 0px; 
+  margin: 2rem 2rem 2rem 13rem;
+}
+
+.cats{
+ display: grid;
+ grid-template-columns: repeat(2, 450px);
+ justify-content: center;
+ align-items: center;   
+ gap: 0 5rem;
+}
+
 footer {
   background: #c3f0ca;
   text-align: center;
