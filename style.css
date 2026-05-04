@@ -140,8 +140,8 @@ nav a.active {
 
 .cards {
      display: grid;
-  grid-template-columns: repeat(2, 300px);
-  gap: 100px;
+  grid-template-columns: repeat(2, 500px);
+  gap: 150px;
   margin: 30px 0;
   justify-content: center;
   padding: 2rem;  
@@ -156,8 +156,8 @@ nav a.active {
 
 .flip-card-inner {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 150%;
+  height: 150%;
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
