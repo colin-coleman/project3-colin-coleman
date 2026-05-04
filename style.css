@@ -9,6 +9,38 @@ html {
   font-size: 16pt;
 }
 
+body {
+  font-family: ;
+  color: #594a4e;
+  background-color: #faeee7;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: ;
+  color: #33272a;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: var(--space-md);
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-bottom: var(--space-sm);
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
+}
+
 
 
 
