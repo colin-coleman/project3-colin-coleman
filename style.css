@@ -82,13 +82,14 @@ nav a.active {
   background-image: url("https://www.lasvegaslocalsreviews.com/wp-content/uploads/2023/08/SPPicnic-1024x577.jpg");
   background-size: cover;
   background-position: center;
-  opacity: 0.8;
+  display: flex;              
+  justify-content: center;   
+  align-items: center;        
+  text-align: center;   
 }
 
 .indextitle {
- opacity: 1;
-font-size: 5rem;
- color: white; 
+ color:  #fffffe; 
 }
 
 .body {
@@ -110,3 +111,22 @@ font-size: 5rem;
     line-height: 3;
 }
 
+footer {
+  background: #c3f0ca;
+  text-align: center;
+  padding: 3rem;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+footer a {
+  color: #ff8ba7;
+  text-decoration: underline;
+}
+
+footer 
+a:hover {
+  color: #ffc6c7; 
+}
