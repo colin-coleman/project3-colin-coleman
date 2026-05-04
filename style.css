@@ -75,7 +75,9 @@ nav a {
   transition: all 0.9s ease;
 }
 
-nav a:hover,
+nav a:hover {
+  background: #ff8ba7;
+}
 nav a.active {
   background: #ff8ba7;
 }
