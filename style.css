@@ -176,6 +176,14 @@ nav a.active {
   backface-visibility: hidden;
 }
 
+.flip-card-front h2{
+   padding: 4.5rem
+}
+
+ .flip-card-back h2{
+   padding: .6rem;  
+}
+
 .flip-card-front {
   background-color: #9EE7F5;
   color: black;
