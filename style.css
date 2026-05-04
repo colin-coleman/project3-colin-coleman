@@ -145,6 +145,7 @@ nav a.active {
   margin: 30px 0;
   justify-content: center;
   padding: 2rem;  
+  min-height: 60rem; 
 }
 
 .flip-card {
@@ -176,12 +177,12 @@ nav a.active {
 }
 
 .flip-card-front {
-  background-color: #bbb;
+  background-color: #9EE7F5;
   color: black;
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #FFF1A6;
   color: white;
   transform: rotateY(180deg); /* Pre-rotate the back side */
 }
