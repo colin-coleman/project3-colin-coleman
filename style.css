@@ -105,4 +105,8 @@ font-size: 5rem;
     margin: 1rem;
 }
 
+.text {
+    text-align: center;
+    line-height: 3;
+}
 
