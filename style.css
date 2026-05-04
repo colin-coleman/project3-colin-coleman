@@ -76,5 +76,26 @@ nav a.active {
   background: #ff8ba7;
 }
 
+.container {
+  height: 35rem;
+  width: auto;
+  background-image: url("https://www.lasvegaslocalsreviews.com/wp-content/uploads/2023/08/SPPicnic-1024x577.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+}
+
+.indextitle {
+ opacity: 1;
+font-size: 5rem;
+ color: white; 
+}
+
+.body{
+ display: grid;
+ grid-template: repeat(1, 50%) / repeat(2, 50%);
+ gap: 2rem 0;
+ padding-top: 5rem;
+}
 
 
