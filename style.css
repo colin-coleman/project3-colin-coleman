@@ -24,19 +24,19 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 700;
   margin-bottom: var(--space-md);
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 3rem;
   font-weight: 400;
   margin-bottom: var(--space-sm);
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: var(--space-xs);
 }
@@ -91,11 +91,18 @@ font-size: 5rem;
  color: white; 
 }
 
-.body{
- display: grid;
- grid-template: repeat(1, 50%) / repeat(2, 50%);
- gap: 2rem 0;
- padding-top: 5rem;
+.body {
+  display: flex;         
+  align-items: center;   
+  gap: 5rem;   
+  margin: 5rem
+
+}
+
+.body img {
+  max-width: 1000px;     
+  height: auto;
+    margin: 1rem;
 }
 
 
