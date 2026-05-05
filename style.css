@@ -132,7 +132,7 @@ nav a.active {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 0px; 
-  margin: 2rem 2rem 2rem 13rem;
+  margin: 2rem 3rem 2rem 10rem;
 }
 
 .cats{
