@@ -78,6 +78,7 @@ nav a {
 nav a:hover {
   background: #ff8ba7;
 }
+
 nav a.active {
   background: #ff8ba7;
 }
@@ -95,7 +96,8 @@ nav a.active {
 }
 
 .indextitle {
- color:  #fffffe; 
+ color:  #faeee7; 
+ -webkit-text-stroke: 2px #33272a;
 }
 
 .body {
