@@ -134,6 +134,14 @@ nav a.active {
     text-align: center;
 }
 
+.headabout h1{
+    margin-bottom: 5rem;
+}
+
+.headabout h2{
+    margin-bottom: 3rem;
+}
+
 .aboutimg {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
