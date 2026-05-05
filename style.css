@@ -242,3 +242,29 @@ footer
 a:hover {
   color: #ffc6c7; 
 }
+
+@media only screen and (max-width: 480px) {
+
+   header {
+    padding: 0 2rem;
+  }
+  
+    nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  width: auto;
+  background-color: #ffc6c7;
+  padding: 0 20rem;
+  font-family: "Indie Flower", cursive;;
+  font-size: .7rem;
+  z-index: 100;
+  }
+
+footer {
+    font-size: .7rem;
+    padding: 3rem ;
+    height: 18rem;
+  }
+}
