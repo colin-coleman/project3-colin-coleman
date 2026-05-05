@@ -290,31 +290,6 @@ a:hover {
     width: 100%;
   }
 
-  .cosmopic {
-    order: 1;
-  }
-
-    .astropic {
-     order: 4;
-  }
-
-    .cosmo {
-    order: 2;
-  }
-
-    .astro {
-     order: 5;
-  }
-
-     .cosmop {
-     order: 3;
-  }
-  
-  }
-    .astrop {
-     order: 6;
-  }
-
   .reason {
     padding: 2rem 1rem; 
   }
