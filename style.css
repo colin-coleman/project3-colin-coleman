@@ -248,20 +248,46 @@ a:hover {
    header {
     padding: 0 2rem;
   }
+
+  h1 {
+    font-size: 2rem;
+  }
   
-    nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 3rem;
-  width: auto;
-  background-color: #ffc6c7;
-  padding: 0 20rem;
-  font-family: "Indie Flower", cursive;;
-  font-size: .7rem;
-  z-index: 100;
+  h2 {
+    font-size: 1.25rem;
+  }
+  
+  h3 {
+    font-size: 1rem;
   }
 
+
+  p {
+    font-size:.7rem;
+  }
+  
+  header{ 
+    font-size:.7rem;
+  }
+  
+  nav {
+    gap: var(--space-sm);
+  }
+  
+  nav a {
+    font-size: 0.9rem;
+    padding: var(--space-xs) var(--space-sm);
+  }
+
+  .body{
+    padding: var(--space-lg) 0;
+  }
+
+  .cats{
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+  
 footer {
     font-size: .7rem;
     padding: 3rem ;
