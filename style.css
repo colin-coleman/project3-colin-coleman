@@ -117,6 +117,11 @@ nav a.active {
 .text {
     text-align: center;
     line-height: 3;
+    border: 2px #33272a;
+    padding: 10px; 
+    border-radius: 20px;
+    background-color: white ;
+    padding: 2rem
 }
 
 .headabout {
