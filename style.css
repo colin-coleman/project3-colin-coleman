@@ -135,11 +135,11 @@ nav a.active {
 }
 
 .headabout h1{
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .headabout h2{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .aboutimg {
@@ -203,11 +203,13 @@ nav a.active {
 }
 
 .flip-card-front h2{
-   padding: 4.5rem 0;
+    padding: 4.5rem 0;
+   font-family: "Indie Flower", cursive;
 }
 
  .flip-card-back h2{
-   padding: .1rem;  
+    padding: 2rem .5rem; 
+   font-family: "Indie Flower", cursive;
 }
 
 .flip-card-front {
